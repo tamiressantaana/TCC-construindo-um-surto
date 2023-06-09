@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(23,64,12);
+    background: linear-gradient(90deg, rgba(23,64,12,1) 0%, rgba(89,154,70,1) 30%, rgba(202,231,193,1) 80%);
+  }
+  
+  .container {
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    background-color: #e0e7df;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 15px;
+    font-size: 12px;
+  }
+  h1 {
+    color: #333;
+    font-size: 20px;
+    position: relative;
+    right: 110px;
+    bottom: -20px;
+    font-family: sans-serif;
+
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  input[type="email"] {
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: -20px;
+  }
+  .botao-inscricao {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    bottom: -20px;
+
+  }
+  .botao-inscricao:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+    img{
+    height: 140px;
+    }
